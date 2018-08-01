@@ -1,0 +1,43 @@
+/*************************************
+
+Template Name: Zdex Multipurpose Business and Agency Template
+Author: while_coder
+Version: 1.0
+Design and Developed by: while_coder
+
+****************************************/
+.color-customizer {z-index: 10000; right: -300px; width: 300px; position: fixed; top: 70%; -webkit-transform: translateY(-70%); -moz-transform: translateY(-70%);
+  -ms-transform: translateY(-70%); -o-transform: translateY(-70%); transform: translateY(-70%); box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.14);}
+.color-customizer .color-button {text-align: center; display: inline-block; z-index: 2; position: absolute; background: #fff; width: 100%; }
+.color-customizer .color-chooser {padding: 20px; background-color: #ffffff; -webkit-box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2); -moz-box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2); box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2);}
+.color-customizer.opened .color-chooser { opacity: 1; }
+.color-customizer a.opener {display: block; height: 45px; background: #00aed3; border-top-left-radius: 5px; border-bottom-left-radius: 5px; width: 45px; font-size: 24px; line-height: 45px; color: #ffffff;  position: absolute; right: 300px; top: 0; text-align: center; text-decoration: none;-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);}
+.color-customizer.opened a.opener { left: -45px; border-color: transparent; }
+.color-customizer ul { list-style: none; margin: 0; padding: 5px 0 0 0; font-size: 0; text-align: center; }
+.color-customizer ul li {border-radius: 5px; width: 40px; height: 40px; position: relative; display: inline-block; cursor: pointer; margin: 0 14px 8px 0; -webkit-transition: all linear 0.5s; -moz-transition: all linear 0.5s; -o-transition: all linear 0.5s; -ms-transition: all linear 0.5s; transition: all linear 0.5s; }
+.color-customizer ul li.selected:before { color: #fff; content: "\f00c"; font-family: 'fontawesome'; font-size: 16px; display: inline-block; position: absolute; top: 50%; left: 50%; text-align: center; transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%);  }
+.color-customizer ul.reset li { width: 100%; padding: 6px 0; min-width: 0; text-align: center; margin-top: 30px; }
+.color-customizer select { width: 100%; padding: 5px; border: 1px solid #b2bfca; }
+.color-customizer ul li:nth-child(5n+5){margin-right: 0;}
+.reset-btn { padding: 6px 15px; font-size: 12px; border: 1px solid #ddd;}
+
+.color-customizer .theme-default {background: #00aed3;}
+.color-customizer .theme-green {background: #2fc071;}
+.color-customizer .theme-red {background: #ec353d;}
+.color-customizer .theme-blue {background: #1919ff;}
+.color-customizer .theme-kitkat { background: #81007F;}
+.color-customizer .theme-pink { background: #FF1493;}
+.color-customizer .theme-violet-red { background: #C71585;}
+.color-customizer .theme-ocian { background: #E52B50;}
+.color-customizer .theme-caret { background: #FF2400;}
+.color-customizer .theme-purple { background: #663399;}
+
+.fa-spinner { -webkit-animation: fa-spin 2s infinite linear; animation: fa-spin 2s infinite linear;	}
+
+@media (max-width: 576px){
+
+.color-customizer {right: -260px; width: 260px;}
+.color-customizer a.opener{right: 260px;}
+.color-customizer ul li {height: 32px; width: 32px;}
+
+}
