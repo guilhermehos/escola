@@ -8,7 +8,7 @@
 		<title>CEI Algodão Doce</title>
 
 	    <!-- Favicon -->
-	    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+	    <!--<link rel="shortcut icon" href="images/favicon.png" type="image/png">-->
 
 	    <!-- base css -->
 		<link href="css/font-awesome.css" rel="stylesheet">
@@ -80,7 +80,7 @@
 								<nav class="header-nav">
 				                    <ul id="navigation">
 				                        <li><a href="#">Home</a></li>
-										<li><a href="about-us.html">Sobre</a></li>
+										<li><a href="#about-us">Sobre</a></li>
 				                        <li><a href="services.html">Serviço</a></li>
 				                        <li><a href="portfolio.html">Portfolio</a></li>
 				                        <li><a href="team.html">Time</a></li>
@@ -160,7 +160,7 @@
 	</section>
 	<!-- slider section end -->
 	<!-- about us -->
-	<section class="about-us">
+	<section id="about-us" class="about-us">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
@@ -360,26 +360,6 @@
 	<!-- back to top -->
 	<a href="#" class="back-to-top"><span class="angle"><i class="fa fa-angle-up"></i></span></a>
 	<!-- back to top -->
-
-	<!-- footer copyright -->
-    <!--modal of video-->
-    <div class="modal video-modal fade" id="video-popup" tabindex="-1" role="dialog" aria-labelledby="video-popup">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
-                </div>
-                <div class="modal-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe id="video-zone" allowfullscreen src="https://www.youtube.com/embed/La5GyrphjK0"></iframe>
-                    </div>
-                </div><!--modal body-->
-            </div><!--modal content-->
-        </div><!--modal dialog-->
-    </div>
-    <!--end the modal of video-->  
-
-   
 
 	<!--JQuery scripts -->
 	<script src="js/jquery-2.1.4.min.js"></script>	

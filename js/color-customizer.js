@@ -73,12 +73,12 @@ if (typeof $.cookie('store_style') === 'undefined'){
  	$(".color-customizer li.theme-default").addClass("selected");
  	link.attr('href', '#');
 	if ($("body").hasClass("body-header-3")) {
-		$('.logo-zone .standard-logo').attr("src", 'images/theme-default-f.png');
+		$('.logo-zone .standard-logo').attr("src", 'images/footer-logo.png');
 		$('.logo-zone .sticky-logo').attr("src", 'images/theme-default-logo.png');
 	} else {
 		$(".logo .logo-zone img").attr("src", 'images/theme-default-logo.png');
 	}	
-	$(".footer-content .footer-logo").attr("src", 'images/theme-default-f.png');
+	$(".footer-content .footer-logo").attr("src", 'images/footer-logo.png');
 } else {
  	var cookieValue = $.cookie('store_style');
  	$(".color-customizer li."+cookieValue).addClass("selected");
