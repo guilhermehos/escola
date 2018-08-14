@@ -47,14 +47,7 @@
 		  			<div class="row">
 	  					
 	  					<div class="col-md-6 col-sm-6">
-							<div class="z-info-box">
-								<div class="z-phone">
-									<a href="tel:1234567890"><span><i class="fa fa-phone"></i>Phone: 12345-67890</span></a>
-								</div>
-								<div class="z-email">
-									<a href="mailto:gui.5.henrique@gmail.com"><span><i class="fa fa-envelope-o"></i>gui.5.henrique@gmail.com</span></a>
-								</div>
-							</div>
+							
 	  					</div>
 	  					<div class="col-md-3">
 							<ul class="z-social-icons">
@@ -81,10 +74,8 @@
 				                    <ul id="navigation">
 				                        <li><a href="#">Home</a></li>
 										<li><a href="#about-us">Sobre</a></li>
-				                        <li><a href="services.html">Serviço</a></li>
-				                        <li><a href="portfolio.html">Portfolio</a></li>
-				                        <li><a href="team.html">Time</a></li>
-				                        <li><a href="contact.html">Contate-nos</a></li>
+				                        <li><a href="#">Time</a></li>
+				                        <li><a href="#contact-area">Contate-nos</a></li>
 				                    </ul>
 			                    </nav>
 			                    
@@ -98,7 +89,7 @@
 	<!-- slider section start -->
 	<section id="slider-sections" class="banner-section">
 		<div class="carousel-single-slide">
-			<div style="background-image:url(images/banner-1.jpg)" class="slider-item">
+			<div style="background-image:url(images/foto-princ.jpg)" class="slider-item">
 			    <div class="container">
 			        <div class="row">
 			            <!--col-lg-12-->
@@ -107,7 +98,7 @@
 				            	<div class="banner-content">
 					                <h1 class="b-headlines animated4">Olá, somos todos alunos</h1>
 					                <p class="b-desc animated2">Escola Algodão Doce</p>
-					                <a class="banner-btn btn-com btn-sm animated3" href="#">Contato</a>
+					                <a class="banner-btn btn-com btn-sm animated3" href="#contact-area">Contato</a>
 					            </div>
 					        </div>
 			            </div>
@@ -115,7 +106,7 @@
 			        </div><!--row-->
 			    </div><!--container-->
 			</div> <!-- slider part 1 -->
-			<div style="background-image:url(images/banner-1.jpg)" class="slider-item">
+			<div style="background-image:url(images/foto-princ.jpg)" class="slider-item">
 			    <div class="container">
 			        <div class="row">
 			            <!--col-lg-12-->
@@ -133,30 +124,7 @@
 			    </div><!--container-->
 			</div> <!-- slider part 2 -->
 		</div>
-	    <!-- search wrapper -->
-	    <div class="search-area">
-			<div class="search-close">
-				<i class="fa fa-close"></i>
-			</div>	    
-	    	<div class="container">
-	    		<div class="row">
-	    			<div class="col-md-12 col-sm-12">
-	    				<div class="z-search-bar">
-	    					<div class="z-search-align">
-		    					<h1>Search Here</h1>
-								<div class="z-search-form">
-									<form id="search-form" action="#" method="post">
-										<input type="email" name="search" class="search-input" placeholder=""/>
-										<button class="z-search-btn" type="submit"><i class="fa fa-search"></i></button>
-									</form>
-								</div>	
-							</div>    					
-	    				</div>
-	    			</div>
-	    		</div>
-	    	</div>
-	    </div>
-	    <!-- search wrapper -->    
+	        
 	</section>
 	<!-- slider section end -->
 	<!-- about us -->
@@ -165,7 +133,7 @@
 			<div class="row">
 				<div class="col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
 					<figure class="img-container">
-						<img src="images/about-us.jpg" alt="about-us">
+						<img src="images/sobre-escola.jpg" alt="about-us">
 					</figure>
 				</div>					
 				<div class="col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;">
@@ -179,7 +147,7 @@
 					</div>					
 					<h3>Escola</h3>
 					<div class="about-us-content">
-						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucaliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maurMorbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Seinon  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu atorquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urnaeu  nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentlfeugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orcidi enim.Ipsum dolor seat ameat adite.</p>
+						<p>Lorem Ipsum. Proin gravida nibh vel velit aucaliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maurMorbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Seinon  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu atorquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urnaeu  nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentlfeugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orcidi enim.Ipsum dolor seat ameat adite.</p>
 						<a class="btn-com btn-sm" href="#">View More</a>
 					</div>
 				</div>
@@ -194,7 +162,7 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
 					<div class="z-title">
-						<h2>Clientes <span class="colorize">Satisfeitos</span></h2>
+						<h2>Relato dos <span class="colorize">Pais</span></h2>
 						<span class="relative-border"><span class="z-circle"></span></span>
 					</div>
 				</div>
@@ -210,7 +178,7 @@
 							</div>
 							<div class="t-content-area">
 								<p>
-									This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, loremquis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputatecursus  Sed ut imperdiet nisi. Proin condimentum fermentum nunc.
+									Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, loremquis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputatecursus  Sed ut imperdiet nisi. Proin condimentum fermentum nunc.
 								</p>							
 								<h3>Marcos Abrar</h3>
 								<span class="skill">Web Design and Development</span>
@@ -279,21 +247,21 @@
 						<div class="col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0.2s">
 							<div class="form-row input-area clearfix">
 								<div class="form-value">
-								<input type="text" placeholder="Your Name*" name="name" class="form-control" id="name" value="" required />
+								<input type="text" placeholder="Seu Nome*" name="name" class="form-control" id="name" value="" required />
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="0.4s">
 							<div class="form-row input-area clearfix">
 								<div class="form-value">
-								<input type="text" placeholder="Your Email*" name="email" class="form-control" id="email" value="" required/>
+								<input type="text" placeholder="Seu Email*" name="email" class="form-control" id="email" value="" required/>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
 							<div class="form-row text-area clearfix">
 								<div class="form-value">
-								<textarea name="message" placeholder="Your Message*" class="message form-control" id="message" rows="3" cols="40" required></textarea>
+								<textarea name="message" placeholder="Sua Mensagem*" class="message form-control" id="message" rows="3" cols="40" required></textarea>
 								</div>
 							</div>
 						</div>
@@ -315,42 +283,6 @@
 		</div>
 	</section>
 	<!-- contact us -->
-	<!-- sponsered by -->
-	<div id="sponsored-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 col-sm-12">
-					<div class="sponsered-logo">
-						<div class="sico">
-							<img src="images/sponsored-1.png" alt="sponsored-1"/>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-12">
-					<div class="sponsered-logo">
-					    <div class="sico">
-							<img src="images/sponsored-2.png" alt="sponsored-2"/>
-						</div>
-					</div>					
-				</div>
-				<div class="col-md-3 col-sm-12">
-					<div class="sponsered-logo">
-						<div class="sico">
-							<img src="images/sponsored-3.png" alt="sponsored-3"/>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-12">
-					<div class="sponsered-logo">
-						<div class="sico">
-							<img src="images/sponsored-4.png" alt="sponsored-4"/>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- sponsered -->
 	<!-- footer -->
 	<footer>
 	<?php

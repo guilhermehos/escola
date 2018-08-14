@@ -74,9 +74,9 @@ if (typeof $.cookie('store_style') === 'undefined'){
  	link.attr('href', '#');
 	if ($("body").hasClass("body-header-3")) {
 		$('.logo-zone .standard-logo').attr("src", 'images/footer-logo.png');
-		$('.logo-zone .sticky-logo').attr("src", 'images/theme-default-logo.png');
+		$('.logo-zone .sticky-logo').attr("src", 'images/logo.png');
 	} else {
-		$(".logo .logo-zone img").attr("src", 'images/theme-default-logo.png');
+		$(".logo .logo-zone img").attr("src", 'images/logo.png');
 	}	
 	$(".footer-content .footer-logo").attr("src", 'images/footer-logo.png');
 } else {

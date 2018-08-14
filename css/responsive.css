@@ -91,7 +91,7 @@
 		height: 68px;
 	}
 	.logo-zone img {
-		width: 130px;
+		width: 60px;
 	}
 	.z-search-align h1 {
 		font-size: 30px;
@@ -497,7 +497,7 @@
 
 @media (max-width : 575px) {
 	.mean-container .mean-bar {
-		width: 95% !important;
+		width: 100% !important;
 	}	
 	#single-post-details h3 {
 		font-size: 18px;
